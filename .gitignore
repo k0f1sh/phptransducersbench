@@ -1,2 +1,4 @@
 vendor
 composer.phar
+run_array.log
+run_transducers.log

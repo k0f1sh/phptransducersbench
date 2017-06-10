@@ -38,7 +38,7 @@ $result = t\transduce($xf, t\create_reducer(function ($a, $b) {return $a + $b;})
 
 $bench->end();
 
-echo $result . "\n";
-echo $bench->getTime() . "\n";
-echo $bench->getMemoryPeak() . "\n";
-echo $bench->getMemoryUsage() . "\n";
+echo $bench->getTime(true);
+echo "\t";
+echo $bench->getMemoryPeak(true);
+echo "\n";
