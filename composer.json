@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mtdowling/transducers": "^0.3.0",
+        "devster/ubench": "^1.2"
+    }
+}
